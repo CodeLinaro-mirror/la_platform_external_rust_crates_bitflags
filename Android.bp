@@ -44,8 +44,8 @@ rust_library {
     host_supported: true,
     crate_name: "bitflags",
     cargo_env_compat: true,
-    cargo_pkg_version: "2.4.2",
-    srcs: ["src/lib.rs"],
+    cargo_pkg_version: "2.5.0",
+    crate_root: "src/lib.rs",
     edition: "2021",
     apex_available: [
         "//apex_available:platform",
